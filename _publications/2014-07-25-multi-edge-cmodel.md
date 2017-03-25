@@ -2,7 +2,6 @@
 title: "The configuration multi-edge model: Assessing the effect of fixing node strengths on weighted network magnitudes"
 collection: publication
 permalink: /publication/2014-07-25-multi-edge-cmodel
-excerpt: '<i>Published in EPL (Europhysics Letters), 2014</i><br/>We examine the effect of fixing the strength sequence in multi-edge networks on several network observables such as degrees, disparity, average neighbor properties and weight distribution using an ensemble approach.'
 date: 2014-07-25
 venue: 'EPL (Europhysics Letters)'
 journalurl: 'https://doi.org/10.1209/0295-5075/107/38002'

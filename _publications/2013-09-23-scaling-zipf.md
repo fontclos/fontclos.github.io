@@ -2,7 +2,6 @@
 title: "A scaling law beyond Zipf's law and its relation to Heaps' law"
 collection: publication
 permalink: /publication/2013-09-23-scaling-zipf
-excerpt: '<i>Published in New Journal of Physics, 2013</i><br/>The dependence on text length of the statistical properties of word occurrences has long been considered a severe limitation on the usefulness of quantitative linguistics. We propose a simple scaling form for the distribution of absolute word frequencies that brings to light the robustness of this distribution as text grows. '
 date: 2013-09-23
 venue: 'New Journal of Physics'
 journalurl: 'http://iopscience.iop.org/1367-2630/15/9/093033'
