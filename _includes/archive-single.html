@@ -51,10 +51,12 @@
     {% if post.pdfurl %}
       <p>Download PDF <a href=" {{ post.pdfurl }} "><u>here</u></a></p>
     {% endif %}
-    {% if post.journalurl %}
-      Link to <a href=" {{ post.journalurl }} "><u>journal</u></a>
-    {% endif %}
-    {% if post.pdfurl %}
+    
+    {% if post.journalurl and post.arxivurl%}
+      </p>Link to <a href=" {{ post.journalurl }} "><u>journal</u></a>, <a href=" {{ post.arxivurl }} "><u>arXiv</u></a></p>
+    {% elsif post.journalurl %}
+      <p>Link to <a href=" {{ post.journalurl }} "><u>journal</u></a></p>
+    {% elsif post.arxivurl %}
       Link to <a href=" {{ post.arxivurl }} "><u>arXiv</u></a>
     {% endif %}
 
