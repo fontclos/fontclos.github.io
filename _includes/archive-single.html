@@ -51,6 +51,13 @@
     {% if post.pdfurl %}
       <p>Download PDF <a href=" {{ post.pdfurl }} "><u>here</u></a></p>
     {% endif %}
+    {% if post.journalurl %}
+      <p>Link to <a href=" {{ post.jorunalurl }} "><u>journal</u></a></p>
+    {% endif %}
+    {% if post.pdfurl %}
+      <p>Link to <a href=" {{ post.arxivurl }} "><u>arXiv</u></a></p>
+    {% endif %}
+
 
     <!-- {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
