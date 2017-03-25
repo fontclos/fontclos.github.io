@@ -4,7 +4,6 @@ collection: publication
 permalink: /publication/2013-09-23-scaling-zipf
 excerpt: '<i>Published in New Journal of Physics, 2013</i><br/>The dependence on text length of the statistical properties of word occurrences has long been considered a severe limitation on the usefulness of quantitative linguistics. We propose a simple scaling form for the distribution of absolute word frequencies that brings to light the robustness of this distribution as text grows. '
 date: 2013-09-23
-venue: 'New Journal of Physics'
 paperurl: 'http://iopscience.iop.org/1367-2630/15/9/093033'
 citation: 'Font-Clos F, Boleda G and Corral A 2013 New J. Phys. 15 093033'
 ---

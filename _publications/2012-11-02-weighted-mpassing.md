@@ -4,7 +4,6 @@ collection: publication
 permalink: /publication/2012-11-02-weighted-mpassing
 excerpt: '<i>Published in Journal of Statistical Mechanics: Theory and Experiment, 2012</i><br/>In this work we introduce a novel weighted message-passing algorithm based on the cavity method for estimating volume-related properties of random polytopes'
 date: 2012-11-02
-venue: 'Journal of Statistical Mechanics: Theory and Experiment'
 paperurl: 'http://iopscience.iop.org/1742-5468/2012/11/P11003'
 citation: 'Font-Clos F,'
 ---
