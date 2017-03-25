@@ -10,5 +10,3 @@ arxivurl: ' '
 citation: 'Massucci, F.A.; Font-Clos, F.; De Martino, A.; Castillo, I.P., A Novel Methodology to Estimate Metabolic Flux Distributions in Constraint-Based Models. Metabolites 2013, 3, 838-852.'
 ---
 Abstract: Constraint-based metabolic flux analysis describes the space of viable flux configurations for a metabolic network as a high-dimensional polytope defined by the linear constraints that enforce the balancing of production and consumption fluxes for each chemical species in the system. Here we compute the distribution of viable fluxes with a method that scales linearly with system size.
-
- Recommended citation: Massucci, F.A.; Font-Clos, F.; De Martino, A.; Castillo, I.P., A Novel Methodology to Estimate Metabolic Flux Distributions in Constraint-Based Models. Metabolites 2013, 3, 838-852.
