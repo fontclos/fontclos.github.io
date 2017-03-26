@@ -56,7 +56,10 @@ layout: default
         {% elsif page.arxivurl %}
           Link to <a href=" {{ page.arxivurl }} ">arXiv</a>
         {% endif %}
-    
+        
+        {% if page.imageurl %}
+          <p><img source=" {{ page.imageurl }} "></p>
+        {% endif %}
         </header>
       {% endunless %}
 
