@@ -38,7 +38,7 @@ for row, item in articles.iterrows():
         md += "\ncitation: '" + html_escape(item.citation) + "'"
     md += "\n---"
     #md += "\n\n<a href='" + item.url + "'>Download PDF here</a>\n" 
-    md += "\nAbstract: " + html_escape(item.summary) + "\n"
+    md += "\nAbstract: " + html_escape(item.description) + "\n"
     #md += "\n Recommended citation: " + item.citation
     md_filename =  "../_publications/"+os.path.basename(md_filename)
     with open(md_filename, 'w') as f:
