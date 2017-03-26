@@ -32,6 +32,8 @@ for row, item in articles.iterrows():
         md += "\npdfurl: '" + item.pdfurl + "'"
     if type(item.arxivurl) is str:
         md += "\narxivurl: '" + item.arxivurl + "'"
+    if type(item.imageurl) is str:
+        md += "\nimageurl: '" + item.imageurl + "'"
     if type(item.citation) is str:
         md += "\ncitation: '" + html_escape(item.citation) + "'"
     md += "\n---"
