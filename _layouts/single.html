@@ -42,8 +42,9 @@ layout: default
         {% endif %}
         
         {% if page.imageurl %}
-          <img src="{{ page.imageurl }}">
+          <p><img src="{{ page.imageurl }}"></p>
         {% end if %}
+
         {% if page.citation and page.paperurl %}
           <p>{{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
@@ -54,7 +55,7 @@ layout: default
           <p>Download PDF <a href=" {{ post.pdfurl }} ">here</a></p>
         {% endif %}
 
-        {% if page.journalurl and page.arxivurl %}
+        {% if page.journalurl and page.arxivurl%}
           <p>Link to <a href=" {{ page.journalurl }} ">journal</a>, <a href=" {{ page.arxivurl }} ">arXiv</a></p>
         {% elsif page.journalurl %}
           <p>Link to <a href=" {{ page.journalurl }} ">journal</a></p>
