@@ -8,4 +8,5 @@ journalurl: 'https://doi.org/10.1088/1367-2630/17/4/043066'
 pdfurl: 'https://fontclos.github.io/files/Font-Clos_2015_The_perils_of_thresholding.pdf'
 arxivurl: 'https://arxiv.org/abs/1410.6048'
 citation: 'F. Font-Clos, G. Pruessner, A. Deluca, N. R. Moloney, New J. Phys. 17 043066'
----\Summary: We show that thresholding the birth–death process introduces a scaling region into the event size distribution, which is characterized by an exponent that is unrelated to the actual asymptote and is rather an artefact of thresholding.
+---
+Abstract: We show that thresholding the birth–death process introduces a scaling region into the event size distribution, which is characterized by an exponent that is unrelated to the actual asymptote and is rather an artefact of thresholding.

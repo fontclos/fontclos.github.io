@@ -8,4 +8,5 @@ journalurl: 'http://dx.doi.org/10.1098/rsif.2015.0543'
 pdfurl: 'https://fontclos.github.io/files/Guell_2015_Mapping_high_grow_phenotypes.pdf'
 arxivurl: 'https://arxiv.org/abs/1409.4595'
 citation: 'O. Güell, F. A. Massucci, F. Font-Clos, F. Sagués, M. A. Serrano, J. R. Soc. Interface 12 20150543.'
----\Summary: We confront optimal growth solutions to the whole set of feasible flux phenotypes of E. Coli
+---
+Abstract: We confront optimal growth solutions to the whole set of feasible flux phenotypes of E. Coli

@@ -9,4 +9,5 @@ pdfurl: 'https://fontclos.github.io/files/Font-Clos_2016_Percolation_on_Trees_as
 arxivurl: 'https://arxiv.org/abs/1606.03764'
 imageurl: 'ks-percolation.jpeg'
 citation: 'F. Font-Clos, N.R. Moloney, Phys. Rev. E 94, 030102(R)'
----\Summary: We calculate the distribution of the size of the percolating cluster on a tree in the subcritical, critical, and supercritical phase. We do this by exploiting a mapping between continuum trees and Brownian excursions, and arrive at a diffusion equation with suitable boundary conditions.
+---
+Abstract: We calculate the distribution of the size of the percolating cluster on a tree in the subcritical, critical, and supercritical phase. We do this by exploiting a mapping between continuum trees and Brownian excursions, and arrive at a diffusion equation with suitable boundary conditions.

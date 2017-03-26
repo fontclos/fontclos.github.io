@@ -8,4 +8,5 @@ journalurl: 'http://dx.doi.org/10.1371/journal.pone.0161586'
 pdfurl: 'https://fontclos.github.io/files/Corral_2016_Exact_Finite_Size_Scaling_Galton_Watson.pdf'
 arxivurl: 'https://arxiv.org/abs/1605.07349'
 citation: 'A. Corral, F. Font-Clos, R. Garcia-Millan, PLOS ONE 11(9): e0161586'
----\Summary: We exactly demonstrate the existence of a finite-size scaling law for the Galton-Watson branching processes when the number of offsprings of each individual follows either a geometric distribution
+---
+Abstract: We exactly demonstrate the existence of a finite-size scaling law for the Galton-Watson branching processes when the number of offsprings of each individual follows either a geometric distribution

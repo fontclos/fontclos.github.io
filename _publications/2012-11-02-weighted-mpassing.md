@@ -8,4 +8,5 @@ journalurl: 'http://iopscience.iop.org/1742-5468/2012/11/P11003'
 pdfurl: 'https://fontclos.github.io/files/Font-Clos_2012_belief_propagation_polytopes.pdf'
 arxivurl: 'https://arxiv.org/abs/1208.1295'
 citation: 'F. Font-Clos, F. Alessandro Massucci, I. Pérez Castillo, J. Stat. Mech. Theor. Exp. 11 P11003.'
----\Summary: In this work we introduce a novel weighted message-passing algorithm based on the cavity method for estimating volume-related properties of random polytopes
+---
+Abstract: In this work we introduce a novel weighted message-passing algorithm based on the cavity method for estimating volume-related properties of random polytopes
