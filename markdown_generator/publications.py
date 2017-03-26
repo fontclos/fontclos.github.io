@@ -23,7 +23,6 @@ for row, item in articles.iterrows():
     md = "---\ntitle: \""   + item.title + '"\n'
     
     md += """collection: publication\npermalink: /publication/""" + html_filename
-    #md += "\nexcerpt: '<i>Published in " + item.venue + ", " + str(year) + "</i><br/>" + html_escape(item.summary) + "'"
     md += "\ndate: " + str(item.pub_date) 
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     if type(item.journalurl) is str:
@@ -38,7 +37,7 @@ for row, item in articles.iterrows():
         md += "\ncitation: '" + html_escape(item.citation) + "'"
     md += "\n---"
     if type(item.imageurl) is str:
-        md += "![image](/images/" + item.imageurl + ")"
+        md += "\n![image](/images/" + item.imageurl + ")"
     md += "\nAbstract: " + html_escape(item.description) + "\n"
     md_filename =  "../_publications/"+os.path.basename(md_filename)
     with open(md_filename, 'w') as f:
