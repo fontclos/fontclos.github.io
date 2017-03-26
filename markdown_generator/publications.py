@@ -33,7 +33,7 @@ for row, item in articles.iterrows():
     if type(item.arxivurl) is str:
         md += "\narxivurl: '" + item.arxivurl + "'"
     if type(item.imageurl) is str:
-        md += "\nimageurl: '" + item.imageurl + "'"
+        md += "\nimageurl:" + item.imageurl
     if type(item.citation) is str:
         md += "\ncitation: '" + html_escape(item.citation) + "'"
     md += "\n---"
