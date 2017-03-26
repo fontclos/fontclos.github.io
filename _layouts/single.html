@@ -41,11 +41,23 @@ layout: default
         {% endif %}
         
              
-        <!-- {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+        {% if page.citation and page.paperurl %}
+          <p>{{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %} -->
+          <p>{{ page.citation }} </p>
+        {% endif %}
+
+        {% if page.pdfurl %}
+          <p>Download PDF <a href=" {{ post.pdfurl }} "><u>here</u></a></p>
+        {% endif %}
+
+        {% if page.journalurl and page.arxivurl%}
+          <p>Link to <a href=" {{ page.journalurl }} "><u>journal</u></a>, <a href=" {{ page.arxivurl }} "><u>arXiv</u></a></p>
+        {% elsif page.journalurl %}
+          <p>Link to <a href=" {{ page.journalurl }} "><u>journal</u></a></p>
+        {% elsif page.arxivurl %}
+          Link to <a href=" {{ page.arxivurl }} "><u>arXiv</u></a>
+        {% endif %}
     
         </header>
       {% endunless %}
