@@ -36,8 +36,8 @@ for row, item in articles.iterrows():
         md += "\ncitation: '" + html_escape(item.citation) + "'"
     md += "\n---"
     if type(item.imageurl) is str:
-        md += "\n![image](/images/" + item.imageurl + ")"
-    md += "\n\nAbstract: " + html_escape(item.description) + "\n"
+        md += "\n![image](/images/" + item.imageurl + ")  "
+    md += "\nAbstract: " + html_escape(item.description) + "\n"
     md_filename =  "../_publications/"+os.path.basename(md_filename)
     with open(md_filename, 'w') as f:
         f.write(md)
