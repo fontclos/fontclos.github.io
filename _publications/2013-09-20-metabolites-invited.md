@@ -10,4 +10,5 @@ arxivurl: 'https://arxiv.org/abs/1309.5861'
 imageurl: 'metabolites-graph.jpeg'
 citation: 'Massucci, F.A.; Font-Clos, F.; De Martino, A.; Castillo, I.P.,  Metabolites 2013, 3, 838-852.'
 ---
-![image](/images/metabolites-graph.jpeg)  Abstract: Constraint-based metabolic flux analysis describes the space of viable flux configurations for a metabolic network as a high-dimensional polytope defined by the linear constraints that enforce the balancing of production and consumption fluxes for each chemical species in the system. Here we compute the distribution of viable fluxes with a method that scales linearly with system size.
+![image](/images/metabolites-graph.jpeg)  
+Abstract: Constraint-based metabolic flux analysis describes the space of viable flux configurations for a metabolic network as a high-dimensional polytope defined by the linear constraints that enforce the balancing of production and consumption fluxes for each chemical species in the system. Here we compute the distribution of viable fluxes with a method that scales linearly with system size.
