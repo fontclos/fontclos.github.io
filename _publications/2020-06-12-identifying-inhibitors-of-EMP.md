@@ -1,10 +1,10 @@
 ---
 title: "Identifying inhibitors of epithelial-mesenchymal plasticity using a network topology based approach"
 collection: publication
-permalink: /publication/2019-11-25-identifying-inhibitors-of-EMP
-date: 2019-11-25
-venue: 'under review'
-journalurl: 'https://www.biorxiv.org/content/10.1101/854307v1'
+permalink: /publication/2020-06-12-identifying-inhibitors-of-EMP
+date: 2020-06-12
+venue: 'npj Systems Biology and Applications'
+journalurl: 'https://doi.org/10.1038/s41540-020-0132-1'
 pdfurl: 'https://fontclos.github.io/files/Hari_2019_Identifying_inhibitors_of_EMP.pdf'
 arxivurl: 'https://www.biorxiv.org/content/10.1101/854307v1'
 imageurl: 'Hari_EMP.png'
